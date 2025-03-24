@@ -3,7 +3,7 @@ session_start();
 require_once 'db_connect.php';
 
 $target_dir = "../uploads/diploms/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$target_file = $target_dir . time() . basename($_FILES["fileToUpload"]["name"]);
 $fileType = pathinfo($target_file, PATHINFO_EXTENSION);
 
 if (isset($_POST["submit"])) {

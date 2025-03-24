@@ -23,9 +23,9 @@ if (!$_SESSION['user']) {
             <span class="logo">БТСИиЭ</span>
             <nav>
                 <ul>
-                    <li><a href="load.php">Загрузить диплом</a></li>
+                    <li><a href="index.php">Найти диплом</a></li>
                     <li><a href="profile.php">Профиль</a></li>
-                    <li><a href="#">GitHub</a></li>
+                    <li><a href="https://github.com/tHere1sh0p3/Archive-Diplom">GitHub</a></li>
                     <li><a href="contacts.html">О нас</a></li>
                 </ul>
             </nav>

@@ -16,6 +16,9 @@
 </head>
 
 <body>
+    <header>
+        <span class="logo">БТСИиЭ</span>
+    </header>
     <form class="container" action="vendor/signup.php" method="post" enctype="multipart/form-data">
         <label>ФИО:</label>
         <input type="text" name="full_name" placeholder="Иванов Иван Иванович">

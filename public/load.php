@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!$_SESSION['user']) {
+    header('Location: /auth.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +22,7 @@
             <ul>
                 <li><a href="index.php">Найти диплом</a></li>
                 <li><a href="profile.php">Профиль</a></li>
-                <li><a href="#">GitHub</a></li>
+                <li><a href="https://github.com/tHere1sh0p3/Archive-Diplom">GitHub</a></li>
                 <li><a href="contacts.html">О нас</a></li>
             </ul>
         </nav>

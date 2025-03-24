@@ -1,12 +1,8 @@
-<?php
-    session_start();
-    if (isset($_SESSION['user'])) {
-        header('Location: profile.php');
-    }
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Авторизация</title>
@@ -14,8 +10,11 @@
 </head>
 
 <body>
+    <header>
+        <span class="logo">БТСИиЭ</span>
+    </header>
     <form class="container" action="vendor/signin.php" method="post">
-        
+
         <label>Логин:</label>
         <input type="text" name="login" placeholder=" Введите свой логин">
         <label>Пароль:</label>
