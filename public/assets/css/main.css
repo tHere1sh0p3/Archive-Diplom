@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    color: white;
+    background-color: #4d4d4d;
+}
+
+a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    cursor: pointer
+}
+
+
+
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    font-family: Montserrat, sans-serif;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.form_input {
+    width: 600px;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    border-bottom: 2px solid #000000;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cfcfcf;
+    color: #000000;
+}
+
+.btn_search {
+    height: 38px;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    color: #b7625c;
+}
+
+.container {
+    height: 70vh;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.search-container {
+    margin: 10px auto;
+}
+
+header {
+    padding: 50px 50px;
+}
+
+header .logo {
+    text-transform: none;
+    font-size: 29px;
+    font-weight: 700;
+
+}
+
+header nav {
+    float: right;
+    width: 400px;
+    height: 32px;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 18px;
+    margin: 8px 0;
+}
+
+.page-name {
+    margin: 20px;
+}
+
+.slide-16-9-1,
+.slide-16-9-1 * {
+  box-sizing: border-box;
+}
+.slide-16-9-1 {
+  background: #4d4d4d;
+  height: 945px;
+  position: relative;
+  overflow: hidden;
+}
+.image-1 {
+  border-radius: 41px;
+  width: 492.88px;
+  height: 659px;
+  position: absolute;
+  left: 106px;
+  bottom: 98px;
+  object-fit: cover;
+  aspect-ratio: 492.88/659;
+}
+._05 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 29px;
+  width: 947px;
+  height: 220px;
+}
+.vk-telegram-79217366506 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  left: 808px;
+  top: 385px;
+  width: 741px;
+  height: 352px;
+}
